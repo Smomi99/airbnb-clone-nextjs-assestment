@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import { Explore } from "./components/Explore";
 export default function Home() {
   return (
     <main>
-      <h1>Home page</h1>
+      <Explore/>
     </main>
   );
 }
